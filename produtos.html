@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMS móveis planejados</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <header class="header-vms d-flex align-items-center justify-content-between p-2">
+    <div class="d-flex align-items-center" style="flex: 1;">
+      <a href="index.html">
+        <img src="img/logo.png" alt="VMS Móveis Planejados" class="logo">
+      </a>
+    </div>
+
+    <div class="d-flex justify-content-center" style="flex: 1;">
+      <h2 class="titulo-vms m-0 text-center">Produtos</h2>
+    </div>
+
+    <div class="d-flex justify-content-end" style="flex: 1;">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <div id="mySideMenu" class="side-menu">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+    <a href="index.html">Início</a>
+    <a href="contato.html">Contato</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="sobre.html">Sobre</a>
+  </div>
+
+  <main class="container my-5">
+
+    <div class="text-center mb-5">
+      <h2 class="mb-3">Produtos</h2>
+      <p class="lead">Confira alguns dos nossos móveis planejados sob medida.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Rack-com-tv-embutida.jpeg" class="card-img-top products-img" alt="Rack com TV embutida">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Rack com TV embutida</h5>
+            <p class="card-text">Transforme sua sala em um espaço de convívio moderno e integrado. Nosso rack com TV
+              embutida foi projetado para encaixar perfeitamente o aparelho, ocultar fios e ainda oferecer espaço para
+              decoração e armazenamento. A leveza da composição e o acabamento sob medida garantem um ambiente mais
+              limpo, organizado e com design elegante.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Rack-planejado.jpeg" class="card-img-top products-img" alt="Rack planejado">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Rack planejado</h5>
+            <p class="card-text">Para quem busca uma solução personalizada e sofisticada, nosso rack planejado oferece o
+              equilíbrio entre estética e funcionalidade. Cada painel, gaveta e prateleira são pensados para valorizar o
+              ambiente, otimizar o uso de espaço e se adequar ao seu estilo. Escolha materiais, acabamentos e detalhes que
+              fazem a diferença na ambientação.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Guarda-roupa-com-estação-de-trabalho.jpeg" class="card-img-top products-img"
+            alt="Guarda-roupa com mesa de trabalho">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Guarda-roupa com estação de trabalho</h5>
+            <p class="card-text">Aproveite ao máximo ambientes multiuso com nosso guarda-roupa que integra estação de
+              trabalho. Ideal para quem home office encontra no quarto o seu refúgio, essa peça planejada reúne organização de
+              roupas, acessórios e um espaço confortável para estudos ou tarefas. Versátil e eficiente, contempla lifestyle
+              moderno.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Pia-de-banheiro-planejada.jpeg" class="card-img-top products-img" alt="Pia de banheiro planejada">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Pia de banheiro planejada</h5>
+            <p class="card-text">Cada milímetro importa no banheiro — por isso, nossa pia planejada foi desenhada sob medida
+              para seu espaço. Unimos beleza, praticidade e acabamento premium, garantindo circulação confortável,
+              armazenamento inteligente e um visual que eleva o ambiente. Transforme o lavabo ou banheiro principal em um
+              local de estilo e funcionalidade.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Mesa-de-canto-planejada.jpeg" class="card-img-top products-img" alt="Mesa de canto">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Mesa de canto planejada</h5>
+            <p class="card-text">O detalhe faz toda a diferença: nossa mesa de canto planejada ocupa com elegância aquele
+              espaço que muitas vezes sobra, criando um ponto de apoio, leitura ou refeição coeso com o restante da decoração.
+              Compacta, personalizada e feita para se encaixar com precisão no seu ambiente.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/Cozinha-planejada.jpeg" class="card-img-top products-img" alt="Cozinha planejada">
+          <div class="card-body text-center">
+            <h5 class="card-title" style="color:#2C3A35;">Cozinha planejada</h5>
+            <p class="card-text">Seu sonho de cozinha completa e personalizada começa aqui. Nossa cozinha planejada considera
+              cada aspecto: fluxo de trabalho, ergonomia, estética e uso inteligente do espaço. Armários bem distribuídos,
+              acabamentos de qualidade e sob medida para você transformar cada refeição em uma experiência com conforto e
+              estilo.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="text-center mt-5">
+      <p class="lead mb-4">Cada projeto é feito sob medida para o seu espaço. Conheça mais sobre nossas etapas de
+        produção e solicite seu orçamento.</p>
+      <a href="projetos.html" class="btn btn-outline-light btn-lg text-light mx-2"
+        style="background-color:#2C3A35;">Conheça as etapas de fabricação</a>
+      <a href="contato.html" class="btn btn-outline-light btn-lg text-light mx-2"
+        style="background-color:#2C3A35;">Solicite seu orçamento</a>
+    </div>
+
+  </main>
+
+
+
+
+  <footer class="footer-vms mt-5 py-4">
+    <div class="container footer-grid">
+      <div class="footer-left d-flex flex-column align-items-center align-items-md-start">
+        <img src="img/logo.png" alt="VMS Móveis Planejados" class="logo-footer">
+      </div>
+
+      <div class="footer-middle">
+        <p class="m-0">Mauá, SP</p>
+        <p class="m-0">+55 11 94034-1338</p>
+        <p class="m-0">
+          <a href="https://www.instagram.com/vmsmoveisplanejadoss/" target="_blank" class="link-social">Instagram</a>
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="index.html" class="footer-link">Início</a>
+        <a href="produtos.html" class="footer-link">Produtos</a>
+        <a href="projetos.html" class="footer-link">Projetos</a>
+        <a href="sobre.html" class="footer-link">Sobre</a>
+        <a href="contato.html" class="footer-link">Contato</a>
+      </div>
+    </div>
+
+    <div class="text-center mt-3 small text-light">
+      © 2025 VMS Móveis Planejados. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    const mobileMenu = document.getElementById('mobile-menu');
+    const sideMenu = document.getElementById('mySideMenu');
+
+    mobileMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+      if (sideMenu.style.width === '250px') {
+        sideMenu.style.width = '0';
+      } else {
+        sideMenu.style.width = '250px';
+      }
+    });
+
+    function closeMenu() {
+      sideMenu.style.width = '0';
+      mobileMenu.classList.remove('active');
+    }
+  </script>
+
+</body>
+
+</html>
