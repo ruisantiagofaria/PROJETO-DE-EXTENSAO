@@ -1,6 +1,6 @@
-#PROJETO DE EXTENSÃO – Memorial Vida Eterna
+# PROJETO DE EXTENSÃO – Memorial Vida Eterna
 
-##Desenvolvimento de um MVP (Mínimo Produto Viável) de software para gestão de uma organização.
+Desenvolvimento de um MVP (Mínimo Produto Viável) de software para gestão de uma organização.
 
 Projeto interdisciplinar desenvolvido pelos alunos do 3º semestre do curso de Sistemas de Informação da Fatec Mauá, com foco na análise e no desenvolvimento de uma solução para a área logística de uma organização cemiterial.
 
