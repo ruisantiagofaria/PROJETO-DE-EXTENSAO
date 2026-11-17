@@ -1,6 +1,7 @@
+
 /* ======== HEADER ======== */
 .header-vms {
-    background-color: #003B73;
+    background-color: #080808;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -31,7 +32,7 @@
 }
 
 .header-vms .btn-link:hover {
-    color: #4A90E2;
+    color: #A0A0A0;
 }
 
 /* ======== AJUSTE MOBILE ======== */
@@ -96,7 +97,7 @@
     z-index: 999;
     top: 0;
     right: 0;
-    background-color: #003B73;
+    background-color: #080808;
     overflow-x: hidden;
     transition: width 0.5s;
     padding-top: 60px;
@@ -112,7 +113,7 @@
 }
 
 .side-menu a:hover {
-    background-color: #002952;
+    background-color: #3B3B3D;
 }
 
 .side-menu .close-btn {
@@ -147,20 +148,20 @@ main {
 
 .texto-contato {
     font-size: 1.1rem;
-    color: #003B73;
+    color: #111111;
     margin: 0;
     text-align: left;
 }
 
 .link-instagram {
-    color: #003B73;
+    color: #111111;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s;
 }
 
 .link-instagram:hover {
-    color: #4A90E2;
+    color: #A0A0A0;
     text-decoration: underline;
 }
 
@@ -172,13 +173,13 @@ main {
 }
 
 .contact-link:hover {
-    color: #003B73;
+    color: #111111;
     text-decoration: underline;
 }
 
 /* ===== FOOTER ===== */
 .footer-vms {
-    background-color: #003B73;
+    background-color: #080808;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
@@ -193,7 +194,7 @@ main {
 .footer-vms .slogan {
     font-style: italic;
     font-size: 0.95rem;
-    color: #4A90E2;
+    color: #A0A0A0;
 }
 
 .footer-vms .footer-link {
@@ -204,7 +205,7 @@ main {
 }
 
 .footer-vms .footer-link:hover {
-    color: #4A90E2;
+    color: #A0A0A0;
 }
 
 .footer-vms .link-social {
@@ -214,7 +215,7 @@ main {
 }
 
 .footer-vms .link-social:hover {
-    color: #4A90E2;
+    color: #A0A0A0;
 }
 
 /* ===== GRID DO FOOTER ===== */
@@ -357,7 +358,7 @@ main .img-fluid {
 .hero-text {
     flex: 1;
     max-width: 500px;
-    color: #003B73;
+    color: #111111;
 }
 
 .hero-images {
@@ -381,20 +382,20 @@ main .img-fluid {
 }
 
 .destaques h2 {
-    color: #003B73;
+    color: #111111;
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 700;
 }
 
 .destaques h5 {
-    color: #003B73;
+    color: #111111;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .destaques p {
-    color: #003B73;
+    color: #111111;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -408,7 +409,7 @@ main .img-fluid {
 }
 
 .main-buttons a.btn {
-    background-color: #003B73;
+    background-color: #080808;
     color: #fff;
     font-weight: 600;
     padding: 12px 25px;
@@ -418,12 +419,12 @@ main .img-fluid {
 }
 
 .main-buttons a.btn:hover {
-    background-color: #002952;
+    background-color: #3B3B3D;
 }
 
 /* --- Seção Extra --- */
 .info-extra {
-    color: #003B73;
+    color: #111111;
     padding: 40px 0;
 }
 
@@ -431,7 +432,7 @@ main .img-fluid {
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #003B73;
+    color: #111111;
 }
 
 .info-extra p {
