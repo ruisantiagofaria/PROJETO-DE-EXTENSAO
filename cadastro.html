@@ -102,7 +102,65 @@
     </div>
   </main>
 
-  <!-- COLE AQUI o <footer> do index.html -->
-  <script src="cadastro.js"></script>
+<footer class="footer-vms mt-5 py-4">
+    <div class="container footer-grid">
+
+        <div class="footer-left d-flex flex-column align-items-center align-items-md-start">
+            <img src="img/logo.png" alt="Cemitério Municipal Santa Lídia" class="logo-footer">
+        </div>
+
+        <div class="footer-middle">
+            <p class="m-0">Mauá - SP</p>
+            <p class="m-0">Atendimento 24 horas</p>
+            <p class="m-0">Cemitério Centro Memorial Vida Eterna</p>
+        </div>
+
+        <div class="footer-right">
+            <a href="index.html" class="footer-link">Início</a>
+            <a href="serviços.html" class="footer-link">Serviços</a>
+            <a href="fluxo.html" class="footer-link">Fluxo</a>
+            <a href="institucional.html" class="footer-link">Institucional</a>
+            <a href="atendimento.html" class="footer-link">Atendimento</a>
+        </div>
+
+    </div>
+
+    <div class="text-center mt-3 small text-light">
+        © 2026 Cemitério Centro Memorial Vida Eterna - Mauá/SP. Todos os direitos reservados.
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const sideMenu = document.getElementById('mySideMenu');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            if (sideMenu.style.width === '250px') {
+                sideMenu.style.width = '0';
+            } else {
+                sideMenu.style.width = '250px';
+            }
+        });
+
+        function closeMenu() {
+            sideMenu.style.width = '0';
+            mobileMenu.classList.remove('active');
+        }
+    </script>
+
 </body>
+
 </html>
